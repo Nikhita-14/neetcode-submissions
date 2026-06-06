@@ -1,3 +1,4 @@
+//Not a Binary Search due to l++ and r--!!! it should be l=mid+1 and r=mid-1
 class Solution {
     public int search(int[] nums, int target) {
         int l=0;
